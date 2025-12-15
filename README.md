@@ -2,6 +2,14 @@
 
 A beautiful split-layout authentication UI plugin for Filament v4 panels with configurable form position and feature cards.
 
+## Screenshots
+
+### Form Left Layout
+![Form Left Demo](left.png)
+
+### Form Right Layout
+![Form Right Demo](right.png)
+
 ## Installation
 
 ```bash
@@ -99,11 +107,7 @@ If no cards are configured, skeleton placeholders are shown automatically.
 ])
 ```
 
-## Screenshots
 
-| Form Left | Form Right |
-|-----------|------------|
-| Login form on the left with feature cards on the right | Login form on the right with feature cards on the left |
 
 ## Requirements
 
