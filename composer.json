@@ -1,0 +1,37 @@
+{
+    "name": "ngankt2/auth-ui",
+    "description": "Simple split layout auth UI for Filament panels",
+    "keywords": [
+        "ngankt2",
+        "laravel",
+        "filament",
+        "auth-ui",
+        "filament-plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ngannv",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "filament/filament": "^4.0",
+        "spatie/laravel-package-tools": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ngankt2\\AuthUi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ngankt2\\AuthUi\\AuthUIServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
