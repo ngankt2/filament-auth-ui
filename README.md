@@ -5,7 +5,7 @@ A beautiful split-layout authentication UI plugin for Filament v4 panels with co
 ## Installation
 
 ```bash
-composer require ngankt2/auth-ui
+composer require ngankt2/filament-auth-ui
 ```
 
 ## Usage
