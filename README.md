@@ -4,25 +4,8 @@ A beautiful split-layout authentication UI plugin for Filament v4 panels with co
 
 ## Installation
 
-Add to your project's `composer.json`:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "path",
-            "url": "packages/ngankt2-auth-ui"
-        }
-    ],
-    "require": {
-        "ngankt2/auth-ui": "*"
-    }
-}
-```
-
-Then run:
 ```bash
-composer update ngankt2/auth-ui
+composer require ngankt2/auth-ui
 ```
 
 ## Usage
